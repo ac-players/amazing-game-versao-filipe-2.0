@@ -46,9 +46,9 @@ public class SimpleGfxGridPosition extends AbstractGridPosition {
         super(col, row, grid,type);
         simpleGfxGrid = grid;
         if(type == 0) {
-            pic = new Picture((col * grid.getCellSize()) + grid.getX(), (row * grid.getCellSize()) + grid.getY(), "/Users/codecadet/Desktop/amazing game project/amazing game 2 objectos/resources/car teste 2.png");
+            pic = new Picture((col * grid.getCellSize()) + grid.getX(), (row * grid.getCellSize()) + grid.getY(), "/Users/codecadet/Desktop/amazing game project/amazing game 2 objectos/resources/goku small.jpg");
         }else if(type == 1) {
-            pic = new Picture((col * grid.getCellSize()) + grid.getX(), (row * grid.getCellSize()) + grid.getY(), "/Users/codecadet/Desktop/amazing game project/amazing game 2 objectos/resources/dragao teste 2.png");
+            pic = new Picture((col * grid.getCellSize()) + grid.getX(), (row * grid.getCellSize()) + grid.getY(), "/Users/codecadet/Desktop/amazing game project/amazing game 2 objectos/resources/rsz_frieza.bmp");
 
         }
 

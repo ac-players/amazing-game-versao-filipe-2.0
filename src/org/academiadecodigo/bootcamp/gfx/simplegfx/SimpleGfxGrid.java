@@ -18,7 +18,7 @@ public class SimpleGfxGrid implements Grid {
     private Rectangle grid;
     private Picture grid2;
 
-    public static final int PADDING = 0;
+    public static final int PADDING = 10;
 
     public SimpleGfxGrid(int cols, int rows){
 
@@ -32,8 +32,10 @@ public class SimpleGfxGrid implements Grid {
     @Override
     public void init() {
 
-        grid = new Rectangle(getX(), getY(), cols*cellSize, rows*cellSize);
-        grid2 = new Picture(getX(),getY(),"/Users/codecadet/Desktop/amazing game project/amazing game 2 objectos/resources/tunnel_road.jpg");
+        grid = new Rectangle(getX()+PADDING, getY()+PADDING, cols*cellSize, rows*cellSize);
+        grid2 = new Picture(0,0,"/Users/codecadet/Desktop/amazing game project/amazing game 2 objectos/resources/testes 2.0.jpg");
+
+
 
 
         grid.draw();
