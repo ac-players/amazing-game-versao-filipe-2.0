@@ -33,8 +33,7 @@ public class SimpleGfxGrid implements Grid {
     public void init() {
 
         grid = new Rectangle(getX()+PADDING, getY()+PADDING, cols*cellSize, rows*cellSize);
-        grid2 = new Picture(0,0,"/Users/codecadet/Desktop/amazing game project/amazing game 2 objectos/resources/testes 2.0.jpg");
-
+        grid2 = new Picture(getX(),getY(),"/Users/codecadet/Desktop/amazing game project/amazing game 2 objectos/resources/road.jpg");
 
 
 
